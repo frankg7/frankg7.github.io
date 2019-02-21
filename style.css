@@ -137,7 +137,7 @@ button:focus {
     }
   
     .navbar ul {
-      visibility: hidden;
+      visibility: visible;
     }
   
     #nav-select {
