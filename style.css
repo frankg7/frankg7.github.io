@@ -99,6 +99,9 @@ padding-top: 15px;
 }
 /* Media Queries */
 @media(max-width: 992px){
+.navbar-expand-lg{
+background-color: #0BADA6 !important;
+}
 .navbar{
     max-height: none; 
     padding: inherit;
@@ -121,26 +124,3 @@ button:focus {
     
     }
 }
-
-/* Adding media queries 480 pixels */
-@media (max-width: 480px) {
-    .navbar li {
-      padding: 10px;
-    }
-    .navbar-expand-lg{
-    background-color: #0BADA6 !important;
-    }
-    .post {
-      margin-right: 30px;
-      margin-left: 30px;
-    }
-  
-    .navbar ul {
-      visibility: visible;
-    }
-  
-    #nav-select {
-      visibility: visible;
-    }
-  }
-  
