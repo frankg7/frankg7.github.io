@@ -125,13 +125,13 @@ button:focus {
     }
 }
 
-/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+/* Adding media queries to show when screen is smaller than 480 pixels */
 @media (max-width: 480px) {
     .navbar li {
       padding: 10px;
     }
     .navbar-expand-lg{
-    background-color: #0BADA6 !important;
+    background-color: #E7E7E7 !important;
     }
     .post {
       margin-right: 30px;
