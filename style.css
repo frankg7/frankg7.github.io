@@ -125,7 +125,7 @@ button:focus {
     }
 }
 
-/* Adding media queries to show when screen is smaller than 480 pixels */
+/* Adding media queries 480 pixels */
 @media (max-width: 480px) {
     .navbar li {
       padding: 10px;
